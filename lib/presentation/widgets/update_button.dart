@@ -22,6 +22,7 @@ class _UpdateButtonState extends State<UpdateButton> {
       );
       final release = await latestRelease();
       if (!mounted) return;
+      setState(() => checking = false);
       final available = release.code > (installed!['code'] as int);
       final download = await showDialog<bool>(
         context: context,
@@ -52,7 +53,7 @@ class _UpdateButtonState extends State<UpdateButton> {
           context,
         ).showSnackBar(SnackBar(content: Text(tr('目前無法取得正式版，請稍後再試'))));
     } finally {
-      if (mounted) setState(() => checking = false);
+      if (mounted && checking) setState(() => checking = false);
     }
   }
 
