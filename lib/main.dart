@@ -158,13 +158,13 @@ class _ReceiverListState extends ConsumerState<ReceiverList>
               child: Row(
                 children: [
                   const Icon(Icons.language, size: 19),
-                  const SizedBox(width: 5),
-                  Text(AppTranslations.language == 'en' ? 'English' : '繁中'),
-                  const Icon(Icons.arrow_drop_down, size: 18),
+                  const SizedBox(width: 4),
+                  Text(AppTranslations.language == 'en' ? 'EN' : '繁中'),
                 ],
               ),
             ),
           ),
+          const UpdateButton(),
         ],
       ),
       body: SafeArea(
@@ -249,7 +249,6 @@ class _ReceiverListState extends ConsumerState<ReceiverList>
                       ),
                 ),
               ),
-            const Align(alignment: Alignment.centerLeft, child: UpdateButton()),
           ],
         ),
       ),

@@ -1,10 +1,10 @@
-﻿# GIOS0901 Android Demo
+# GIOS0901 Android Demo
 
 透過藍牙廣播展示 0901SR 接收板的姿態、無線充電狀態與電力讀值。支援繁體中文、英文與亮暗色切換。
 
 ## 安裝與更新
 
-從 [最新正式版](https://github.com/jerrywu-voltraware/gios0901-android-demo/releases/latest) 下載 APK。Android 7.0 或以上可安裝。1.0.1 起，首頁的「檢查更新」可查詢 GitHub 最新正式版，並在有新版時開啟 APK 下載。下載後點選 APK，依 Android 提示更新。覆蓋安裝會保留語言與外觀設定。
+從 [最新正式版](https://github.com/jerrywu-voltraware/gios0901-android-demo/releases/latest) 下載 APK。Android 7.0 或以上可安裝。1.0.2 起，在首頁右上角的「⋮」選單點「檢查更新」，即可查詢 GitHub 最新正式版，並在有新版時開啟 APK 下載。下載後點選 APK，依 Android 提示更新。覆蓋安裝會保留語言與外觀設定。
 
 ## 開發
 

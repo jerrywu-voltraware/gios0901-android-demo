@@ -16,6 +16,11 @@ String tr(String source, [List<Object?> args = const []]) {
 }
 
 const englishMessages = <String, String>{
+  '更多選項': 'More options',
+  '已是最新版': 'Up to date',
+  '有更新可用': 'Update available',
+  '目前版本': 'Installed',
+  '最新版本': 'Available',
   '檢查更新': 'Check for updates',
   '正在檢查更新': 'Checking for updates',
   '已有新版 {0}': 'Version {0} is available',
