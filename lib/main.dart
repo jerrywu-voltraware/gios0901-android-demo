@@ -7,6 +7,7 @@ import 'application/scan_controller.dart';
 import 'core/localization/translations.dart';
 import 'data/models/pru_device.dart';
 import 'presentation/pages/sensor_demo3_page.dart';
+import 'presentation/widgets/update_button.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -248,6 +249,7 @@ class _ReceiverListState extends ConsumerState<ReceiverList>
                       ),
                 ),
               ),
+            const Align(alignment: Alignment.centerLeft, child: UpdateButton()),
           ],
         ),
       ),

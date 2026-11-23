@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <!-- ===================== BLE 權限 ===================== -->
     <!-- Android 12 (API 31) 以上：新的藍牙執行階段權限 -->
     <!-- neverForLocation：宣告本 App 不會用 BLE 掃描推導地理位置，因此 12+ 不需定位權限 -->

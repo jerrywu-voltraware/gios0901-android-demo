@@ -16,6 +16,14 @@ String tr(String source, [List<Object?> args = const []]) {
 }
 
 const englishMessages = <String, String>{
+  '檢查更新': 'Check for updates',
+  '正在檢查更新': 'Checking for updates',
+  '已有新版 {0}': 'Version {0} is available',
+  '目前已是最新版本': 'Your app is up to date',
+  '已安裝 {0}': 'Installed: {0}',
+  '下載 APK': 'Download APK',
+  '目前無法取得正式版，請稍後再試': 'Could not retrieve the latest release. Try again later.',
+  '無法開啟下載連結': 'Could not open the download link.',
   "板子傾斜": "Tilted",
   "角度良好": "Good angle",
   "已對準": "Aligned",
